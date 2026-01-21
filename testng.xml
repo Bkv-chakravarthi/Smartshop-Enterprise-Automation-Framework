@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SmartShop Parallel Suite"
+       parallel="methods"
+       thread-count="3">
+
+    <test name="Regression Tests">
+
+        <classes>
+            <class name="com.smartshop.tests.Pages.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>

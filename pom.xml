@@ -51,12 +51,21 @@
             <version>5.6.3</version>
         </dependency>
 
+
         <!-- Apache Commons IO (for screenshots, file utils) -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.15.1</version>
         </dependency>
+        <!-- Source: https://mvnrepository.com/artifact/org.aeonbits.owner/owner -->
+        <dependency>
+            <groupId>org.aeonbits.owner</groupId>
+            <artifactId>owner</artifactId>
+            <version>1.0.12</version>
+            <scope>compile</scope>
+        </dependency>
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>

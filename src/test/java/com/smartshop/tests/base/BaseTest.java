@@ -1,4 +1,4 @@
-package com.smartshop.framework.Base;
+package com.smartshop.tests.base;
 
 import com.smartshop.framework.config.ConfigurationManager;
 import com.smartshop.framework.driver.DriverController;
